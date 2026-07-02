@@ -102,3 +102,11 @@ Wraps MediaPipe's Hands solution into a reusable `HandDetector` class.
 - Calculating Euclidean distance between any two landmarks (`findDistance`)
 - Determining which fingers are raised (`fingersUp`)
 - Classifying the current gesture (`detectGesture`) into one of: `Move`, `Left_Click`, `Right_Click`, `Scroll`, or `NONE`
+
+### 2. `KalmanFilterModule.py`
+A dedicated module implementing a **4-state Kalman Filter** (`x, y, vx, vy`) using OpenCV's built-in `cv2.KalmanFilter`.
+
+**Responsibilities:**
+- Predicting the next cursor position based on motion history
+- Correcting predictions using real (noisy) landmark measurements
+- Returning smoothed `(x, y)` coordinates every frame
