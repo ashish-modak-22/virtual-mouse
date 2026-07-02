@@ -60,3 +60,9 @@ The project is built with a modular architecture — separating hand detection, 
 - 👆 **Left Click** — Trigger a left click via a pinch gesture between index and middle fingers.
 - ✌️ **Right Click** — Perform a right click using a dedicated finger combination.
 - 📜 **Velocity-Based Scrolling** — Scroll up/down dynamically based on hand movement speed.
+- 🎯 **Kalman Filter Smoothing** — Physically-modeled motion prediction eliminates jitter while preserving responsiveness.
+- 📊 **Real-Time FPS Counter** — Live performance monitoring overlay on the camera feed.
+- 🧩 **Modular Codebase** — Cleanly separated modules for detection, filtering, and control logic.
+- 🖥️ **Cross-Platform** — Works on Windows, macOS, and Linux (subject to `autopy` support).
+- 
+---
