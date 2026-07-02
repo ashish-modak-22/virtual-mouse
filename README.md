@@ -48,3 +48,9 @@
 ## 🌟 Overview
  
 **AI Virtual Mouse** is a real-time, computer-vision-based system that replaces the physical mouse with **hand gestures** captured through a standard webcam. It leverages **Google's MediaPipe Hands** solution for high-fidelity 21-point hand landmark detection, combined with **OpenCV** for image processing and a custom **Kalman Filter** for smooth, jitter-free cursor motion.
+
+The project is built with a modular architecture — separating hand detection, gesture recognition, motion smoothing, and system-level mouse control into independent, reusable components.
+ 
+> Move your cursor, click, right-click, drag, and scroll — all without touching a physical mouse.
+ 
+---
