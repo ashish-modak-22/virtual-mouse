@@ -83,3 +83,6 @@ The project is built with a modular architecture — separating hand detection, 
 │ (autopy/pyautogui)      └──────────────────┘       └───────────────────┘
 └─────────────────
 ```
+1. **Capture** — A live video stream is captured frame-by-frame via OpenCV.
+2. **Detect** — Each frame is passed to MediaPipe Hands, which returns 21 hand landmarks.
+3. **Interpret** — Finger positions are analyzed to detect which fingers are raise
