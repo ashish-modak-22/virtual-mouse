@@ -110,3 +110,16 @@ A dedicated module implementing a **4-state Kalman Filter** (`x, y, vx, vy`) usi
 - Predicting the next cursor position based on motion history
 - Correcting predictions using real (noisy) landmark measurements
 - Returning smoothed `(x, y)` coordinates every frame
+
+### 3. `AI_Virtual_Mouse.py`
+The orchestrator — ties everything together.
+
+**Responsibilities:**
+- Capturing and preprocessing webcam frames
+- Invoking `HandDetector` for landmark detection and gesture classification
+- Mapping hand-space coordinates to screen-space coordinates
+- Passing raw coordinates through the Kalman Filter
+- Executing OS-level mouse actions (move, click, right-click, drag, scroll)
+- Rendering visual feedback (bounding box, cursor indicators, FPS counter)
+
+---
