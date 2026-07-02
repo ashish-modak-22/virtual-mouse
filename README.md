@@ -19,31 +19,6 @@
 
 ---
 
-## 📖 Table of Contents
-
-- [Overview](#overview)
-- [Key Features](#key-features)
-- [How It Works](#how-it-works)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Architecture & Module Breakdown](#architecture--module-breakdown)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Running the Application](#running-the-application)
-- [Gesture Controls](#gesture-controls)
-- [Kalman Filter — Motion Smoothing](#kalman-filter--motion-smoothing)
-- [Configuration](#configuration)
-- [Performance](#performance)
-- [Troubleshooting](#troubleshooting)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
-- [Contact](#contact)
-
----
-
 ## 🌟 Overview
  
 **AI Virtual Mouse** is a real-time, computer-vision-based system that replaces the physical mouse with **hand gestures** captured through a standard webcam. It leverages **Google's MediaPipe Hands** solution for high-fidelity 21-point hand landmark detection, combined with **OpenCV** for image processing and a custom **Kalman Filter** for smooth, jitter-free cursor motion.
