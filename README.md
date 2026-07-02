@@ -246,3 +246,9 @@ Key constants can be adjusted directly in `AI_Virtual_Mouse.py`:
 | Hand not detected                         | Poor lighting / hand outside frame          | Improve lighting, keep hand within the green bounding box            |
 
 ---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+---
