@@ -149,3 +149,4 @@ The orchestrator — ties everything together.
    ```bash
    pip install -r requirements.txt
    ```
+  > ⚠️ **Note:** `autopy` may require additional system-level build tools (e.g., `cmake`, Xcode Command Line Tools on macOS, or `python3-dev` on Linux). Refer to the [autopy documentation](https://github.com/autopilot-rs/autopy) if installation fails.
