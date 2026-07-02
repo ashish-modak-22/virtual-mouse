@@ -1,6 +1,7 @@
 # 🖐️ AI Virtual Mouse
  
 <div align="center">
+ 
 ### Control your computer's mouse using nothing but hand gestures — powered by Computer Vision, MediaPipe, and Kalman Filtering.
 
 ---
@@ -14,4 +15,5 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey?style=flat-square)
  
 </div>
+
 ---
