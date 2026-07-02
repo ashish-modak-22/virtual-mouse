@@ -20,28 +20,29 @@
 ---
 
 ## 📖 Table of Contents
- 
-- [Overview](#-overview)
-- [Key Features](#-key-features)
-- [How It Works](#-how-it-works)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Architecture & Module Breakdown](#-architecture--module-breakdown)
-- [Getting Started](#-getting-started)
+
+- [Overview](#overview)
+- [Key Features](#key-features)
+- [How It Works](#how-it-works)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Architecture & Module Breakdown](#architecture--module-breakdown)
+- [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Running the Application](#running-the-application)
-- [Gesture Controls](#-gesture-controls)
-- [Kalman Filter — Motion Smoothing](#-kalman-filter--motion-smoothing)
-- [Configuration](#-configuration)
-- [Performance](#-performance)
-- [Troubleshooting](#-troubleshooting)
-- [Roadmap](#-roadmap)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Acknowledgements](#-acknowledgements)
-- [Contact](#-contact)
+- [Gesture Controls](#gesture-controls)
+- [Kalman Filter — Motion Smoothing](#kalman-filter--motion-smoothing)
+- [Configuration](#configuration)
+- [Performance](#performance)
+- [Troubleshooting](#troubleshooting)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
+---
 ---
 
 ## 🌟 Overview
