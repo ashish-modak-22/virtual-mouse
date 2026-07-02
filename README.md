@@ -223,3 +223,14 @@ Key constants can be adjusted directly in `AI_Virtual_Mouse.py`:
 | `detectionCon`           | `0.5`   | Minimum hand detection confidence threshold   |
 
 ---
+
+## 📈 Performance
+
+- Real-time FPS is displayed in the top-left corner of the video feed.
+- Performance depends primarily on:
+  - Webcam resolution
+  - CPU capability (MediaPipe inference is CPU-bound by default)
+  - MediaPipe model complexity settings
+- Typical performance on a mid-range CPU: **20–30 FPS** at 640×480 resolution.
+
+---
