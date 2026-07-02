@@ -252,3 +252,11 @@ Key constants can be adjusted directly in `AI_Virtual_Mouse.py`:
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
+
+## 🙏 Acknowledgements
+
+- [MediaPipe](https://developers.google.com/mediapipe) by Google — for the hand landmark detection solution
+- [OpenCV](https://opencv.org/) — for image processing and Kalman Filter implementation
+- [autopy](https://github.com/autopilot-rs/autopy) & [PyAutoGUI](https://pyautogui.readthedocs.io/) — for cross-platform mouse automation
+
+---
