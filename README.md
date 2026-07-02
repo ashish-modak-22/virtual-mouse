@@ -131,3 +131,11 @@ The orchestrator — ties everything together.
 - Python 3.8 or higher
 - A working webcam
 - pip package manager
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/ashish-modak-22/virtual-mouse.git
+   cd AI-Virtual-Mouse
+   ```
