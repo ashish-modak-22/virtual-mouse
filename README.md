@@ -261,10 +261,9 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ---
 
-## 📬 Contact
+<div align="center">
 
-**Your Name** — [your.email@example.com](mailto:your.email@example.com)
+⭐ If you found this project useful, consider giving it a star on GitHub!
 
-Project Link: [https://github.com/&lt;your-username&gt;/AI-Virtual-Mouse](https://github.com/)
+</div>
 
----
