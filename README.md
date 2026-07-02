@@ -175,3 +175,7 @@ python AI_Virtual_Mouse.py
 > Finger states are represented as a binary array `[Thumb, Index, Middle, Ring, Pinky]`, where `1` = extended, `0` = folded.
 
 ---
+
+## 🎯 Kalman Filter — Motion Smoothing
+
+Raw hand-tracking coordinates are inherently noisy due to camera resolution limits, lighting conditions, and natural hand tremor. Instead of simple exponential smoothing, this project uses a **Kalman Filter** for statistically optimal motion estimation.
