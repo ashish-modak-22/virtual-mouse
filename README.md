@@ -150,3 +150,15 @@ The orchestrator — ties everything together.
    pip install -r requirements.txt
    ```
   > ⚠️ **Note:** `autopy` may require additional system-level build tools (e.g., `cmake`, Xcode Command Line Tools on macOS, or `python3-dev` on Linux). Refer to the [autopy documentation](https://github.com/autopilot-rs/autopy) if installation fails.
+
+### Running the Application
+
+```bash
+python AI_Virtual_Mouse.py
+```
+
+- A webcam window titled **"Virtual Mouse"** will open.
+- Position your hand within the green bounding box for best tracking accuracy.
+- Press **`s`** to quit the application.
+
+---
