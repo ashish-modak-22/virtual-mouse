@@ -139,3 +139,13 @@ The orchestrator — ties everything together.
    git clone https://github.com/ashish-modak-22/virtual-mouse.git
    cd AI-Virtual-Mouse
    ```
+2. **Create a virtual environment (recommended)**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate      # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
