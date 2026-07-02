@@ -53,3 +53,10 @@ The project is built with a modular architecture — separating hand detection, 
 > Move your cursor, click, right-click, drag, and scroll — all without touching a physical mouse.
  
 ---
+
+## ✨ Key Features
+ 
+- 🖱️ **Cursor Movement** — Control the mouse pointer in real time using your index finger.
+- 👆 **Left Click** — Trigger a left click via a pinch gesture between index and middle fingers.
+- ✌️ **Right Click** — Perform a right click using a dedicated finger combination.
+- 📜 **Velocity-Based Scrolling** — Scroll up/down dynamically based on hand movement speed.
