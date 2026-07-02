@@ -89,3 +89,16 @@ The project is built with a modular architecture — separating hand detection, 
 4. **Smooth** — Raw coordinates from the "Move" gesture are passed through a Kalman Filter to predict and smooth cursor motion.
 5. **Act** — The final, smoothed coordinates are mapped to screen space and dispatched as native OS-level mouse events.
 ---
+
+## 🛠️ Tech Stack
+ 
+| Category              | Technology                                   |
+|------------------------|-----------------------------------------------|
+| Language               | Python 3.8+                                   |
+| Computer Vision         | OpenCV                                        |
+| Hand Tracking           | MediaPipe Hands                               |
+| Numerical Computing     | NumPy                                         |
+| Motion Filtering        | Kalman Filter (via `cv2.KalmanFilter`)        |
+| Mouse Automation        | autopy, PyAutoGUI                             |
+ 
+---
