@@ -234,3 +234,15 @@ Key constants can be adjusted directly in `AI_Virtual_Mouse.py`:
 - Typical performance on a mid-range CPU: **20–30 FPS** at 640×480 resolution.
 
 ---
+
+## 🩺 Troubleshooting
+
+| Issue                                   | Possible Cause                          | Solution                                                        |
+|-------------------------------------------|-------------------------------------------|---------------------------------------------------------------------|
+| Webcam window doesn't open                | Camera in use by another application       | Close other apps using the webcam                                    |
+| Cursor lags significantly                 | High `measurement_noise` or low FPS         | Lower `measurement_noise`, reduce camera resolution                   |
+| Cursor jitters despite Kalman filter      | `process_noise` too high                    | Decrease `process_noise` value                                       |
+| `autopy` fails to install                 | Missing build dependencies                  | Install `cmake` and platform-specific build tools                    |
+| Hand not detected                         | Poor lighting / hand outside frame          | Improve lighting, keep hand within the green bounding box            |
+
+---
