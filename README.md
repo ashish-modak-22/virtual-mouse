@@ -260,3 +260,11 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 - [autopy](https://github.com/autopilot-rs/autopy) & [PyAutoGUI](https://pyautogui.readthedocs.io/) — for cross-platform mouse automation
 
 ---
+
+## 📬 Contact
+
+**Your Name** — [your.email@example.com](mailto:your.email@example.com)
+
+Project Link: [https://github.com/&lt;your-username&gt;/AI-Virtual-Mouse](https://github.com/)
+
+---
