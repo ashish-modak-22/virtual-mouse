@@ -72,14 +72,14 @@ The project is built with a modular architecture — separating hand detection, 
  
 ```
 ┌─────────────────┐     ┌──────────────────┐     ┌───────────────────┐
-│   Webcam Feed    │ ──▶ │  Hand Detection   │ ──▶ │  Landmark          │
-│   (OpenCV)       │     │  (MediaPipe)      │     │  Extraction        │
+│   Webcam Feed   │ ──▶ │  Hand Detection  │ ──▶ │  Landmark         │
+│   (OpenCV)      │     │  (MediaPipe)     │     │  Extraction       │
 └─────────────────┘     └──────────────────┘     └───────────────────┘
                                                             │
                                                             ▼
-┌─────────────────┐     ┌──────────────────┐     ┌───────────────────┐
-│  System Mouse    │ ◀── │  Kalman Filter    │ ◀── │  Gesture           │
-│  Control         │     │  (Smoothing)      │     │  Recognition       │
-│  (autopy/pyautogui)     └──────────────────┘     └───────────────────┘
-└─────────────────┘
+┌─────────────────┐       ┌──────────────────┐       ┌───────────────────┐
+│ System Mouse    │  ◀──  │  Kalman Filter   │ ◀──   │  Gesture          │
+│ Control         │       │  (Smoothing)     │       │  Recognition      │
+│ (autopy/pyautogui)      └──────────────────┘       └───────────────────┘
+└─────────────────
 ```
