@@ -208,3 +208,18 @@ Because the filter tracks **velocity as a hidden state** (not directly measured,
 | `measurement_noise`      | Trust in raw tracking data. Higher → more smoothing, more lag on fast moves. |
 
 ---
+
+## 🔧 Configuration
+
+Key constants can be adjusted directly in `AI_Virtual_Mouse.py`:
+
+| Constant              | Default | Description                                  |
+|-------------------------|---------|-----------------------------------------------|
+| `CAMERA_WIDTH`           | `640`   | Webcam capture width                          |
+| `CAMERA_HEIGHT`          | `480`   | Webcam capture height                         |
+| `REDUCED_FRAME`          | `100`   | Margin defining the active tracking region    |
+| `SCROLL_SPEED`           | `5`     | Base scroll sensitivity                       |
+| `maxHands`               | `1`     | Maximum number of hands tracked simultaneously |
+| `detectionCon`           | `0.5`   | Minimum hand detection confidence threshold   |
+
+---
