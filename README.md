@@ -12,8 +12,6 @@
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
 ![PRs](https://img.shields.io/badge/PRs-Welcome-orange?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey?style=flat-square)
-![Made With Love](https://img.shields.io/badge/Made%20with-❤️-red?style=flat-square)
-![Maintenance](https://img.shields.io/badge/Maintained-Yes-brightgreen?style=flat-square)
  
 </div>
 ---
