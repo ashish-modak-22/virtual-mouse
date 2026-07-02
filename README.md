@@ -77,3 +77,17 @@ The project is built with a modular architecture — separating hand detection, 
 | Mouse Automation        | autopy, PyAutoGUI                             |
  
 ---
+
+## 📁 Project Structure
+ 
+```
+virtual-mouse/
+│
+├── HandTrackingModule.py     # Hand detection & gesture recognition (MediaPipe wrapper)
+├── KalmanFilter.py           # Kalman Filter class for cursor motion smoothing
+├── AI_Virtual_Mouse.py       # Main application — camera loop & control logic
+├── requirements.txt          # Project dependencies
+└── README.md                 # Project documentation
+```
+ 
+---
