@@ -22,7 +22,6 @@
 ## 📖 Table of Contents
  
 - [Overview](#-overview)
-- [Demo](#-demo)
 - [Key Features](#-key-features)
 - [How It Works](#-how-it-works)
 - [Tech Stack](#-tech-stack)
