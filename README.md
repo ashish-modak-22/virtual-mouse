@@ -64,5 +64,22 @@ The project is built with a modular architecture — separating hand detection, 
 - 📊 **Real-Time FPS Counter** — Live performance monitoring overlay on the camera feed.
 - 🧩 **Modular Codebase** — Cleanly separated modules for detection, filtering, and control logic.
 - 🖥️ **Cross-Platform** — Works on Windows, macOS, and Linux (subject to `autopy` support).
-- 
+
 ---
+
+ 
+## ⚙️ How It Works
+ 
+```
+┌─────────────────┐     ┌──────────────────┐     ┌───────────────────┐
+│   Webcam Feed    │ ──▶ │  Hand Detection   │ ──▶ │  Landmark          │
+│   (OpenCV)       │     │  (MediaPipe)      │     │  Extraction        │
+└─────────────────┘     └──────────────────┘     └───────────────────┘
+                                                            │
+                                                            ▼
+┌─────────────────┐     ┌──────────────────┐     ┌───────────────────┐
+│  System Mouse    │ ◀── │  Kalman Filter    │ ◀── │  Gesture           │
+│  Control         │     │  (Smoothing)      │     │  Recognition       │
+│  (autopy/pyautogui)     └──────────────────┘     └───────────────────┘
+└─────────────────┘
+```
