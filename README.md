@@ -91,3 +91,7 @@ virtual-mouse/
 ```
  
 ---
+## 🧩 Architecture & Module Breakdown
+
+### 1. `HandTrackingModule.py`
+Wraps MediaPipe's Hands solution into a reusable `HandDetector` class.
