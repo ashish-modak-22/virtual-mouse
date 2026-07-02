@@ -95,3 +95,10 @@ virtual-mouse/
 
 ### 1. `HandTrackingModule.py`
 Wraps MediaPipe's Hands solution into a reusable `HandDetector` class.
+
+**Responsibilities:**
+- Detecting hands and drawing landmarks (`findHands`)
+- Extracting pixel-space landmark coordinates (`findPosition`)
+- Calculating Euclidean distance between any two landmarks (`findDistance`)
+- Determining which fingers are raised (`fingersUp`)
+- Classifying the current gesture (`detectGesture`) into one of: `Move`, `Left_Click`, `Right_Click`, `Scroll`, or `NONE`
