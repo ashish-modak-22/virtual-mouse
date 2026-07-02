@@ -198,3 +198,13 @@ Because the filter tracks **velocity as a hidden state** (not directly measured,
 | `y`              | Cursor Y position              |
 | `vx`             | Velocity in X direction        |
 | `vy`             | Velocity in Y direction        |
+
+
+### `Tunable Parameters`
+
+| Parameter              | Effect                                                                 |
+|--------------------------|--------------------------------------------------------------------------|
+| `process_noise`          | Trust in the motion model. Lower → smoother but slightly delayed.        |
+| `measurement_noise`      | Trust in raw tracking data. Higher → more smoothing, more lag on fast moves. |
+
+---
