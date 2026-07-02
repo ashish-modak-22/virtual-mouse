@@ -86,3 +86,7 @@ The project is built with a modular architecture — separating hand detection, 
 1. **Capture** — A live video stream is captured frame-by-frame via OpenCV.
 2. **Detect** — Each frame is passed to MediaPipe Hands, which returns 21 hand landmarks.
 3. **Interpret** — Finger positions are analyzed to detect which fingers are raise
+d, and a gesture is classified (Move, Left Click, Right Click, Scroll, Drag).
+4. **Smooth** — Raw coordinates from the "Move" gesture are passed through a Kalman Filter to predict and smooth cursor motion.
+5. **Act** — The final, smoothed coordinates are mapped to screen space and dispatched as native OS-level mouse events.
+---
