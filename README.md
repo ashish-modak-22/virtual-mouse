@@ -162,3 +162,16 @@ python AI_Virtual_Mouse.py
 - Press **`s`** to quit the application.
 
 ---
+
+## ✋ Gesture Controls
+
+| Gesture                          | Finger Pattern                  | Action              |
+|-----------------------------------|----------------------------------|----------------------|
+|  Index finger only               | `[0, 1, 0, 0, 0]`                | Move Cursor          |
+|  Index + Middle finger           | `[0, 1, 1, 0, 0]`                | Left Click            |
+|  Pinky  + Index finger          | `[0, 1, 0, 0, 1]`                | Right Click           |
+|  Four fingers (no thumb)         | `[0, 1, 1, 1, 1]`                | Scroll                |
+
+> Finger states are represented as a binary array `[Thumb, Index, Middle, Ring, Pinky]`, where `1` = extended, `0` = folded.
+
+---
