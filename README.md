@@ -180,7 +180,7 @@ python AI_Virtual_Mouse.py
 
 Raw hand-tracking coordinates are inherently noisy due to camera resolution limits, lighting conditions, and natural hand tremor. Instead of simple exponential smoothing, this project uses a **Kalman Filter** for statistically optimal motion estimation.
 
-### - Core Concept
+### `Core Concept`
 Every frame, the filter performs a two-step cycle:
 
 1. **Predict** — Estimates the next cursor position using a motion model (position + velocity).
@@ -190,7 +190,7 @@ Because the filter tracks **velocity as a hidden state** (not directly measured,
 - **Involuntary jitter** (near-zero velocity) → suppressed
 - **Intentional fast movement** (rising velocity) → tracked and followed responsively
 
-### - State Model
+### `State Model`
 
 | State Variable | Description                  |
 |------------------|-------------------------------|
