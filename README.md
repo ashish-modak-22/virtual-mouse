@@ -123,3 +123,11 @@ The orchestrator — ties everything together.
 - Rendering visual feedback (bounding box, cursor indicators, FPS counter)
 
 ---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.8 or higher
+- A working webcam
+- pip package manager
