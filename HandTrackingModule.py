@@ -87,10 +87,6 @@ class HandDetector:
 
     def detectGesture(self):
         fingers = self.fingersUp()
-        thumb_index_distance = self.findDistance(4, 8)
-
-        if thumb_index_distance < 30:
-            return "Drag"
         
         if fingers == [0, 1, 0, 0, 0]:
             return "Move"
