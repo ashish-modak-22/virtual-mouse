@@ -35,18 +35,26 @@ class MouseKalmanFilter:
         # Flag to check if filter has been initialized with first measurement
         self.initialized = False
 
+
     def update(self, x, y):
 
+        # Convert incoming mouse/hand coordinates into measurement vector
         measurement = np.array([[np.float32(x)], [np.float32(y)]])
 
+        # Initialize state on first input to avoid unstable predictions
         if not self.initialized:
           
             self.kf.statePre = np.array([[x], [y], [0], [0]], np.float32)
             self.kf.statePost = np.array([[x], [y], [0], [0]], np.float32)
             self.initialized = True
 
+        
+        # Predict next state based on motion model
         self.kf.predict()
+
+        # Correct prediction using actual measurement
         corrected = self.kf.correct(measurement)
 
+        # Return filtered (smoothed) x, y coordinates
         return corrected[0, 0], corrected[1, 0]
     
