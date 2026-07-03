@@ -1,11 +1,15 @@
 import cv2
 import numpy as np
 
+
+
 class MouseKalmanFilter:
     def __init__(self, process_noise=1e-3, measurement_noise=1e-1):
-       
+
+        # Initialize Kalman Filter with 4 state variables (x, y, dx, dy) and 2 measurements (x, y)
         self.kf = cv2.KalmanFilter(4, 2)
 
+        # Measurement matrix maps state to measurement space( We observe only x and y)
         self.kf.measurementMatrix = np.array([
             [1, 0, 0, 0],
             [0, 1, 0, 0]
