@@ -29,8 +29,10 @@ class MouseKalmanFilter:
         # Process noise controls how much we trust the model prediction
         self.kf.processNoiseCov = np.eye(4, dtype=np.float32) * process_noise
 
+        # Measurement noise controls how much we trust incoming measurements
         self.kf.measurementNoiseCov = np.eye(2, dtype=np.float32) * measurement_noise
 
+        # Flag to check if filter has been initialized with first measurement
         self.initialized = False
 
     def update(self, x, y):
