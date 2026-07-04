@@ -124,8 +124,10 @@ while True:
             length = detector.findDistance(8, 12)
             
 
+            # Trigger a click only when the fingertips are close enough
             if length < 30:
 
+                # Record the gesture start time
                 if drag_timer_start is None:
                     drag_timer_start = time.time()
 
