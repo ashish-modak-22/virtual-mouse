@@ -149,7 +149,7 @@ while True:
                 )
 
 
-                
+                # Prevent repeated clicks while the gesture is continuously held
                 if not mouse_down:
 
                     autopy.mouse.click()
@@ -157,6 +157,7 @@ while True:
 
             else:
 
+                # Reset the click state once the fingers are separated
                 mouse_down = False
 
         drag_timer_start = None
