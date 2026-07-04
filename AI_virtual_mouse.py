@@ -131,6 +131,7 @@ while True:
                 if drag_timer_start is None:
                     drag_timer_start = time.time()
 
+                # Visual feedback indicating that the click gesture has been detected
                 cv2.circle(
                    img,
                    (x_index_finger, y_index_finger),
@@ -148,6 +149,7 @@ while True:
                 )
 
 
+                
                 if not mouse_down:
 
                     autopy.mouse.click()
