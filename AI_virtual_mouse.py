@@ -114,12 +114,13 @@ while True:
                 cv2.FILLED
             )
 
-
+            # Update previous position for next frame calculation
             x_previous_location, y_previous_location = x_current_location, y_current_location
 
 
         if gesture == "Left_Click":
 
+            # Measure the distance between index and middle fingertips to detect a click gesture
             length = detector.findDistance(8, 12)
             
 
