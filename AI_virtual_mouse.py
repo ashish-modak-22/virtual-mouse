@@ -20,13 +20,19 @@ SCROLL_BUFFER = 0
 ###########################################################
 
 
-
+# Previous and current cursor positions(used for smoothing and movement calculation)
 x_previous_location, y_previous_location = 0, 0
 x_current_location, y_current_location = 0, 0
+
+# Used to calculate the FPS
 previous_time = 0
+
+# Gesture state flags to prevent mouse actions
 mouse_down = False
 right_click_active = False
 scroll_active = False
+
+# Variables used for velocity based scrolling
 prev_y = 0
 prev_y_time = 0
 scroll_velocity = 0
