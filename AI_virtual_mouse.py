@@ -37,6 +37,7 @@ prev_y = 0
 prev_y_time = 0
 scroll_velocity = 0
 
+
 ###########################################################
 
 
@@ -46,7 +47,11 @@ filter = kf.MouseKalmanFilter()
 
 
 
+# Initialize webcam capture 
 cap = cv2.VideoCapture(0)
+
+
+# Set camera width (property 3) and height (property 4) for stable tracking performance
 cap.set(3, CAMERA_WIDTH)
 cap.set(4, CAMERA_HEIGHT)
 
