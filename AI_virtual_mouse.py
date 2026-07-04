@@ -92,13 +92,12 @@ while True:
         if gesture == "Move":
 
 
+            # Map index finger position from camera frame coordinates to screen coordinates 
             x_converted = np.interp(x_index_finger, (REDUCED_FRAME, CAMERA_WIDTH - REDUCED_FRAME), (0, SCREEN_WIDTH))
-
-
             y_converted = np.interp(y_index_finger, (REDUCED_FRAME, CAMERA_HEIGHT-REDUCED_FRAME), (0, SCREEN_HEIGHT))
 
 
-
+            # Apply Kalman filter to smooth cursor movement and reduce jitter
             x_current_location, y_current_location = filter.update(x_converted, y_converted)
 
 
