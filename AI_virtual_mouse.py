@@ -101,10 +101,11 @@ while True:
             x_current_location, y_current_location = filter.update(x_converted, y_converted)
 
 
-            
+            # Move mouse cursor (horizontal axis is flipped for natural hand movement)
             autopy.mouse.move(SCREEN_WIDTH - x_current_location, y_current_location)
 
 
+            # Visual Feedback: Draw circle on index finger tip for debugging/tracking
             cv2.circle (
                 img,
                 (x_index_finger, y_index_finger),
