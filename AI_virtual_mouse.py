@@ -160,6 +160,7 @@ while True:
                 # Reset the click state once the fingers are separated
                 mouse_down = False
 
+        # Reset the gesture timer when the click gesture is no longer active
         drag_timer_start = None
 
             
