@@ -68,6 +68,8 @@ while True:
 
     if len(lmList)!=0:
 
+        # Extract fingertip coordinates from landmark list
+        # Index finger tip (landmark 8) and middle finger tip (landmark 12)
         x_index_finger, y_index_finger = lmList[8][1:]
         x_middle_finger, y_middle_finger = lmList[12][1:]
 
