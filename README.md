@@ -249,7 +249,10 @@ Key constants can be adjusted directly in `AI_Virtual_Mouse.py`:
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+## 📄 License
+ 
+This project is open source and available under the [Apache License 2.0](License).
 
 ---
 
