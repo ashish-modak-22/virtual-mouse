@@ -12,7 +12,7 @@
 ![PyAutoGUI](https://img.shields.io/badge/PyAutoGUI-automation-FF6F00?style=for-the-badge&logo=python&logoColor=white)
 ![autopy](https://img.shields.io/badge/autopy-mouse%20control-4B8BBE?style=for-the-badge&logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-numerical%20computing-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge)](https://opensource.org/licenses/Apache-2.0)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-2ea44f?style=for-the-badge&logo=windowsterminal&logoColor=white)
  
 </div>
